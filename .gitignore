@@ -11,7 +11,7 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
+# JARs are kept since the Docker image needs the one I wrote for the startup sequence.
 *.war
 *.nar
 *.ear
