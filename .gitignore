@@ -1,3 +1,6 @@
+#JSON files should not be included
+*.json
+
 # Compiled class file
 *.class
 
