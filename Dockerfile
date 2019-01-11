@@ -4,16 +4,17 @@ FROM gliderlabs/alpine:3.7
 # Use baseimage-docker's init system.
 CMD ["/sbin/my_init"]
 
-# Get the JRE
-RUN apk --no-cache add openjdk8-jre curl wget mozjs60
-# RUN curl -s https://java.com/en/download/installed8.jsp | grep latest8Version
+# Get the JDK and other helpful packages
+RUN apk --no-cache add openjdk8 curl wget jq
 
-# Get jsawk to get the appropriate release of the server software
-RUN curl -L http://github.com/micha/jsawk/raw/master/jsawk > jsawk
-RUN chmod +x jsawk && mv jsawk ~/bin/
+# Add in the basic release file and retreival script
+ADD ./release.json ./release.json
+ADD ./get-release-ver.sh ./get-release-ver.sh
 
-# Get the latest minecraft server
+# Copy over the java class and libs
+ADD ./gson-2.8.5.jar ./gson-2.8.5.jar
 
-# Set appropriate environment variables
-# ENV JAVA_HOME=/MCSLI/java/jre1.8.0_25/
-# ENV PATH=${PATH}:/MCSLI/java/jre1.8.0_25/bin
+# Compile the classes and jar them.
+
+# Check that java is installed correctly
+ENTRYPOINT [ "javac --version" ]
