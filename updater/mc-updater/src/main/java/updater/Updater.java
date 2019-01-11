@@ -18,6 +18,7 @@ public class Updater{
         if (args.length == 1) {
             Gson gson = new Gson();
             JsonReader manifest = null;
+            System.out.println();
             try {
                 manifest = new JsonReader(new FileReader(new File(args[0])));
             } catch (FileNotFoundException notFound){
@@ -41,9 +42,9 @@ public class Updater{
             // The release info file should now be downloaded and cleaned at json/release-info-clean.json
             // Use GSON to create a ReleaseInfo object and get the server dl URL.
 
-            JsonReader releaseManifest = null;
+            FileReader releaseManifest = null;
             try {
-                releaseManifest = new JsonReader(new FileReader(new File("json/release-info-clean.json")));
+                releaseManifest = new FileReader(new File("json/release-info-clean.json"));
             } catch (FileNotFoundException notFound){
                 System.out.println("Path: '" + "json/release-info-clean.json" + "' does not point to a valid JSON file.");
                 System.exit(1);
@@ -52,15 +53,30 @@ public class Updater{
             ReleaseInfo releaseInfo = gson.fromJson(releaseManifest, ReleaseInfo.class);
             URL serverDlUrl = getServerDlUrl(releaseInfo);
 
+            if (serverDlUrl == null){
+                System.out.println("ERROR: Server download URL could not be grabbed.");
+                System.exit(2);
+            }
+
             // Write the URL to its own file so that wget can handle the dl.
             try {
                 FileWriter fileWriter = new FileWriter("server-latest.url");
                 fileWriter.write(serverDlUrl.toString());
                 fileWriter.close();
+                System.out.println("\nURL successfully written to server-latest.url");
             } catch (IOException e) {
                 System.out.println("ERROR: File could not be written. Are you sure you own this directory?");
+                System.exit(3);
             }
 
+            //Download file with wget. Why reinvent the wheel here?
+            ProcessBuilder dl = new ProcessBuilder("wget", serverDlUrl.toString());
+            try {
+                dl.start();
+            } catch (IOException e){
+                System.out.println("ERROR: " + e.toString());
+                System.exit(3);
+            }
 
             System.exit(0);
         } else {
@@ -106,6 +122,16 @@ public class Updater{
     private static URL getServerDlUrl(ReleaseInfo ri){
         URL serverDlUrl = null;
 
+        Downloads downloads = ri.getDownloads();
+        //Get the server download url through the Downloads object.
+        Server server = downloads.getServer();
+        String serverUrlStr = server.getUrl();
+
+        try{
+            serverDlUrl = new URL(serverUrlStr);
+        } catch (MalformedURLException e){
+            System.out.println("ERROR: '" + serverUrlStr + "' is a malformed URL.");
+        }
 
         return serverDlUrl;
     }
@@ -139,7 +165,6 @@ public class Updater{
             System.out.println("ERROR: File could not be opened for writing.");
             System.exit(1);
         }
-
 
         ProcessBuilder cleanJson = new ProcessBuilder("./clean-release-json.sh");
         try {

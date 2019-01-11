@@ -2,20 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5aa3575e-86a9-48aa-a28a-9b28b2ab374d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mc-updater/src/main/java/updater/Updater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/updater.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/updater.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/updater.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/updater.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mc-updater/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/mc-updater/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mc-updater/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/mc-updater/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mc-updater/.gradle/4.10/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/mc-updater/.gradle/4.10/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mc-updater/.gradle/4.10/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/mc-updater/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mc-updater/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/mc-updater/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mc-updater/src/main/java/Latest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mc-updater/src/main/java/updater/Latest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mc-updater/src/main/java/Updater.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mc-updater/src/main/java/Version.java" beforeDir="false" afterPath="$PROJECT_DIR$/mc-updater/src/main/java/updater/Version.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mc-updater/src/main/java/VersionManifest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mc-updater/src/main/java/updater/VersionManifest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mc-updater/libs/slf4j-nop-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mc-updater/src/main/java/updater/Arguments.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mc-updater/src/main/java/updater/Artifact.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mc-updater/src/main/java/updater/AssetIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mc-updater/src/main/java/updater/Classifiers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mc-updater/src/main/java/updater/Client_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mc-updater/src/main/java/updater/Downloads_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mc-updater/src/main/java/updater/Extract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mc-updater/src/main/java/updater/File.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mc-updater/src/main/java/updater/Javadoc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mc-updater/src/main/java/updater/Jvm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mc-updater/src/main/java/updater/Library.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mc-updater/src/main/java/updater/Logging.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mc-updater/src/main/java/updater/Natives.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mc-updater/src/main/java/updater/NativesLinux.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mc-updater/src/main/java/updater/NativesMacos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mc-updater/src/main/java/updater/NativesOsx.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mc-updater/src/main/java/updater/NativesWindows.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mc-updater/src/main/java/updater/Os.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mc-updater/src/main/java/updater/Os_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mc-updater/src/main/java/updater/ReleaseInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/mc-updater/src/main/java/updater/ReleaseInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mc-updater/src/main/java/updater/Rule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mc-updater/src/main/java/updater/Rule_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mc-updater/src/main/java/updater/Sources.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mc-updater/src/main/java/updater/Updater.java" beforeDir="false" afterPath="$PROJECT_DIR$/mc-updater/src/main/java/updater/Updater.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/mc-updater/.gradle/" />
@@ -54,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mc-updater/src/main/java/updater/Latest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="391">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mc-updater/src/main/java/updater/Updater.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="244">
+              <caret line="77" column="31" selection-start-line="77" selection-start-column="31" selection-end-line="77" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,8 +91,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mc-updater/src/main/java/updater/ReleaseInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-428">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,6 +130,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mc-updater/src/main/java/updater/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -206,7 +235,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547239732848" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547244393522" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
@@ -301,8 +330,8 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32963374" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32963374" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32963374" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39955604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -322,24 +351,36 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/mc-updater/src/main/java/updater/Updater.java</url>
-          <line>52</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/mc-updater/src/main/java/updater/Updater.java</url>
-          <line>51</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18196371" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32963374" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32963374" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39955604" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32967034" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32967034" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32963374" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32889125" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mc-updater/src/main/java/updater.iml">
@@ -347,30 +388,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mc-updater/pom.xml" />
     <entry file="file://$PROJECT_DIR$/mc-updater/mc-updater.iml" />
-    <entry file="file://$PROJECT_DIR$/mc-updater/src/main/java/updater/Latest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mc-updater/src/main/java/updater/Version.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mc-updater/src/main/java/updater/VersionManifest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.asynchttpclient/async-http-client/2.6.0/e4bc6736bebe07067bb94f35732d3643778d2f2a/async-http-client-2.6.0-sources.jar!/org/asynchttpclient/AsyncCompletionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -388,10 +405,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mc-updater/src/main/java/updater/Server.java">
+    <entry file="file://$PROJECT_DIR$/mc-updater/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="238">
+          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mc-updater/src/main/java/updater/ReleaseInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mc-updater/src/main/java/updater/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mc-updater/src/main/java/updater/VersionManifest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mc-updater/src/main/java/updater/Version.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mc-updater/src/main/java/updater/Latest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -405,24 +464,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mc-updater/build.gradle">
+    <entry file="file://$PROJECT_DIR$/mc-updater/src/main/java/updater/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mc-updater/src/main/java/updater/ReleaseInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-428">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="170">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mc-updater/src/main/java/updater/Updater.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="244">
+          <caret line="77" column="31" selection-start-line="77" selection-start-column="31" selection-end-line="77" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
