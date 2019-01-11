@@ -1,7 +1,10 @@
+package updater;
+
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 public class Version {
+    // TODO: Rework Version so that it can function in a HashMap.
 
     @SerializedName("id")
     @Expose
