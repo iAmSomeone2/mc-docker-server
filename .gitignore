@@ -1,3 +1,6 @@
+# Anything in the server dir should not be included.
+server/
+
 # URL file
 *.url
 
